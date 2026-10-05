@@ -1,0 +1,288 @@
+/* ELEMENT SELECTORS */
+body {
+    background-color: #eaf6ff;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #263238;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #064789;
+    font-family: Georgia,serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px #9ecae1;
+}
+
+h2 {
+    color: #087ca7;
+    font-family: Georgia,serif;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* CLASS SELECTORS */
+.profile-info {
+    background-color: white;
+
+    /* BOX MODEL */
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+
+    border: 2px solid #9ecae1;
+    border-left: 7px solid #087ca7;
+
+    border-radius: 5px 18px 18px 5px;
+    opacity: 0.95;
+
+    /* POSITION */
+    position: relative;
+
+    /* Z-INDEX */
+    z-index: 1;
+}
+
+/* NAVIGATION LINKS */
+
+.nav-link {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* LINK STATES */
+.nav-link:link {
+    color: white;
+}
+
+.nav-link:visited {
+    color: #d9c2ff;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: #064789;
+}
+
+.nav-link:active {
+    color: #ffd166;
+}
+
+/* SECTION TITLE */
+.section-title {
+    text-align: center;
+    color: #064789;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/* FORM */
+.form-label {
+    font-weight: bold;
+    display:block;
+    margin-top: 12px;
+    color: #064789;
+}
+
+.form-input {
+    width: 90%;
+    height: 35px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #7db9d8;
+    border-radius: 7px;
+}
+
+.btn {
+    font-weight: bold;
+    padding: 10px 22px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #087ca7;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #064789;
+}
+
+/* LIST PROPERTIES */
+ul {
+    list-style-type:square;
+    padding-left: 35px;
+    margin: 15px 0;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 35px;
+    margin: 15px 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ID SELECTORS */
+#main-header {
+    background: linear-gradient(135deg,#89cff0,#4361ee);
+
+    /* BOX MODEL */
+    width: 100%;
+    height: auto;
+    padding: 35px 20px;
+    margin: 0;
+
+    border-color: 5px solid #087ca7;
+
+    text-align: center;
+    color: #eaf6ff;
+    opacity: 0.95;
+
+    /*POSITION*/
+    position: relative;
+
+    /*Z-INDEX*/
+    z-index: 2;
+}
+
+
+#contact-section {
+    background-color: white;
+    
+    /* BOX MODEL */
+    width: 90%;
+    height: auto;
+    padding: 25px;
+    margin: 20px auto;
+
+    border: 2px solid #9ecae1;
+    border-top: 6px solid #087ca7;
+
+    border-radius: 12px;
+    opacity: 0.96;
+
+    /*POSITION*/
+    position: relative;
+
+    /*Z-INDEX*/
+    z-index: 2;
+}
+
+/* GENERAL DESIGN */
+nav {
+    background: linear-gradient(90deg, #023e8a, #0077b6);
+    padding: 17px;
+    text-align: center;
+    margin: 0;
+
+    /*POSITION*/
+    position: relative;
+
+    /*Z-INDEX*/
+    z-index: 3;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    
+    /*BOX MODEL*/
+    width: 90% ;
+    height:auto ;
+    padding: 25px;
+    margin: 0 auto22px auto;
+
+    border: 2px solid #7db9d8;
+    border-radius:15px ;
+
+    box-shadow:0 4px 12px rgba(0,80,140,0.15;
+
+    /*POSITION*/
+    position: relative;
+
+    /*Z-INDEX*/
+    z-index: 1;
+}
+
+/* IMAGE + FLOAT */
+
+img {
+    max-width: 300px;
+    height: auto;
+
+    padding: 5px;
+    margin: 10px 20px 10px 0;
+
+    border: 3px solid #7db9d8;
+    border-radius: 15px;
+
+    opacity: 0.95;
+
+    /* FLOAT */
+    float: left;
+}
+
+
+/* CLEAR */
+
+footer {
+    clear: both;
+
+    background: linear-gradient(90deg, #023e8a, #0077b6);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+
+/* VIDEO */
+
+video {
+    max-width: 100%;
+    padding: 5px;
+    border: 3px solid #7db9d8;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+
+/* AUDIO */
+
+audio {
+    width: 100%;
+    margin: 10px 0;
+}
